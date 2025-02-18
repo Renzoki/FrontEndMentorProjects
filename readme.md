@@ -8,4 +8,4 @@ Built with:
 - CSS3
 - Flexbox
 
-# Live Demo at: https://renzoki.github.io/Blog-Preview-Card/
+### Live Demo at: https://renzoki.github.io/Blog-Preview-Card/
