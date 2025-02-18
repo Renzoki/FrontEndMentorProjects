@@ -9,4 +9,3 @@ Built with:
 - HTML5
 - CSS3
 - Flexbox
-- Mobile-first workflow
