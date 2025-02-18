@@ -34,7 +34,7 @@ body {
     justify-self: stretch;
     min-height: 185px;
     border-radius: 1em;
-    background-image: url(../assets/images/illustration-article.svg);
+    background-image: url(../Blog-Preview-Card/assets/images/illustration-article.svg);
     transform: translateY(-10px);
     background-position: -40px;
 }
