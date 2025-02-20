@@ -1,8 +1,7 @@
 # Frontend Mentor - Blog preview card solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
-
-## Entry point: index.html
+This is collection of solutions to the FrontEnd Mentor Projects.
+1: (https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 
 Built with:
 
