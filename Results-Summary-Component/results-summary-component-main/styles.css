@@ -132,3 +132,12 @@ body {
     background-color: hsla(234, 85%, 45%, 5%);
     color: hsl(234, 85%, 45%);
 }
+
+.continue-button {
+    color: white;
+    font-size: 1.2em;
+    border-radius: 2em;
+    padding: .7em 35%;
+    text-decoration: none;
+    background-color: hsl(224, 30%, 27%);
+}
