@@ -74,7 +74,7 @@ body {
 
 .test-component {
     width: 80%;
-    padding: 1em;
+    padding: 1em 1em;
     border-radius: 1em;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ body {
 
 .verbal {
     background-color: hsla(166, 100%, 37%, 7%);
-    color: hsl(166, 100%, 37%);
+    color: hsla(166, 100%, 37%, 0.677);
 }
 
 .visual {
@@ -141,3 +141,153 @@ body {
     text-decoration: none;
     background-color: hsl(224, 30%, 27%);
 }
+
+@media (min-width: 420px) {
+    .score-rating {
+        font-size: 1.7em;
+    }
+
+    .score-comparison {
+        font-size: 1.2em;
+    }
+
+    .summary-title {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 550px) {
+    .score-rating {
+        font-size: 1.9em;
+    }
+
+    .score-comparison {
+        font-size: 1.5em;
+    }
+
+    .summary-title {
+        font-size: 1.7em;
+    }
+
+    .component-container {
+        font-size: 1.4em;
+    }
+
+    .component-grade {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(221, 100%, 96%);
+    }
+
+    .panel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 55%;
+        max-width: 800px;
+        max-height: 800px;
+        border-radius: 2em;
+        background-color: white;
+        box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.205);
+    }
+
+    .results-final-container {
+        width: 50%;
+        height: 100%;
+        flex: 1;    
+        border-radius: 2em;
+    }
+
+    .score-display {
+        font-size: 1.5em;
+        padding: 1.2em 2.3em;
+        border-radius: 100em;
+    }
+
+    .results-summary-container {
+        width: 50%;
+        height: 100%;
+        flex: 1.2;
+    }
+
+    .score-display {
+        padding: 1.2em 2em
+    }
+
+    .actual-score {
+        font-size: 2em;
+    }
+
+    .total-score {
+        font-size: .7em;
+    }
+
+    .result-label {
+        font-size: 1.2em;
+    }
+
+    .score-rating {
+        font-size: 1.2em;
+    }
+
+    .score-comparison {
+        font-size: 1em;
+    }
+
+    .summary-title {
+        font-size: 1.1em;
+    }
+
+    .component-container {
+        font-size: 1em;
+    }
+
+    .component-name {
+        font-size: .9em;
+    }
+
+    .component-grade {
+        font-size: .8em;
+    }
+
+    .continue-button {
+        padding: .5em 30%;
+        font-size: 1em;
+    }
+}
+/* 
+@media (min-width: 1200px) {
+    .result-label {
+        font-size: 1.5em;
+    }
+
+    .score-rating {
+        font-size: 1.5em;
+    }
+
+    .score-comparison {
+        font-size: 1.5em;
+    }
+
+    .summary-title {
+        font-size: 1.4em;
+    }
+
+    .component-container {
+        font-size: 1.3em;
+    }
+
+    .component-grade {
+        font-size: 1.3em;
+    }
+} */
