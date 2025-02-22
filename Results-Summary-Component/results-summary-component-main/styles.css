@@ -73,19 +73,19 @@ body {
 }
 
 .test-component {
-    width: 75%;
-    padding: .7em;
+    width: 80%;
+    padding: 1em;
     border-radius: 1em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: hsla(241, 100%, 89%, 20%);
 }
 
 .component-container {
     width: 40%;
     display: flex;
     font-size: 1.1em;
+    font-weight: 700;
     align-items: center;
 }
 
@@ -95,12 +95,40 @@ body {
 }
 
 .component-grade {
-    border: 1px solid black;
     width: 25%;
     display: flex;
+    font-weight: 700;
     justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.749);
+}
+
+.component-grade span {
+    display: flex;
+    align-items: center;
 }
 
 .component-total-score {
-    letter-spacing: 1px;
+    color: hsla(224, 30%, 27%, 50%);
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 7%);
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 7%);
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 7%);
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 5%);
+    color: hsl(234, 85%, 45%);
 }
